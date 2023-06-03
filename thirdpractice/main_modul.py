@@ -2,9 +2,9 @@ class Spider:
     """All methods which needs personally to spiders"""
     name: str  # spiders name
     species: str  # spider species
-    color: str  # horse gender
+    color: str  # spiders color
     age: int  # spiders age
-    weight: float  # horse height in hands
+    weight: float  # spiders weight 
     category: str
     areal: str
 
@@ -19,8 +19,8 @@ class Spider:
         self.areal = areal
     def get_info(self) -> str:
         """String representation of the object"""
-        return f"Horse({self.name}, {self.species}, {self.color}, {self.age}, {self.weight}, {self.category},{self.areal})"
+        return f"Spider({self.name}, {self.species}, {self.color}, {self.age}, {self.weight}, {self.category},{self.areal})"
 
     def __repr__(self) -> str:
         """String representation of the object"""
-        return f"Horse({self.name}, {self.species}, {self.color}, {self.age}, {self.weight},{self.category},{self.areal})"
+        return f"Spider({self.name}, {self.species}, {self.color}, {self.age}, {self.weight},{self.category},{self.areal})"
